@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chris Portfolio 👨‍💻</title>
+  <link rel="icon" type="image/x-icon" href="/assets/Chris-image.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header class="fade-in">
+    <h1>Christopher Montes</h1>
+    <nav>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#certificados">Certificados</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- SOBRE MI -->
+  <section id="sobre-mi" class="fade-in">
+    <img src="assets/Chris-image.png" alt="Foto de Chris" class="foto-chris" />
+    <div class="sobre-texto">
+      <h2>Sobre mí</h2>
+      <p>
+       <strong>Desarrollador Full Stack</strong> con pasión por crear experiencias web interactivas y visualmente atractivas. Me especializo en tecnologías como HTML, CSS, JavaScript, WordPress y React.
+      </p>
+      <a href="#contacto" class="btn-contacto">Contáctame</a>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="fade-in">
+    <h2>Proyectos</h2>
+    <div class="grid-proyectos">
+
+      <div class="card">
+        <img src="assets/flowers.webp" alt="Flowers Store" />
+        <div class="info">
+          <h3>Flowers Store</h3>
+          <p>Tienda de flores creada con un diseño natural y moderno con Astro.</p>
+          <a href="https://floral-sky.vercel.app/" target="_blank" class="btn">Ver proyecto</a>
+          <div class="tecnologias">
+             <i class="devicon-html5-plain colored" title="HTML"></i>
+             <i class="devicon-css3-plain colored" title="CSS"></i>
+             <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+             <i class="devicon-tailwindcss-plain colored" title="Tailwind CSS"></i>
+             <i class="devicon-astro-plain" title="Astro"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/giotecnika.webp" alt="Giotecnika" />
+        <div class="info">
+          <h3>Giotecnika</h3>
+          <p>E-commerce de papelería premium con React y Firebase.</p>
+          <a href="https://giotecnika.netlify.app/" target="_blank" class="btn">Ver proyecto</a>
+          <div class="tecnologias">
+             <i class="devicon-html5-plain colored" title="HTML"></i>
+             <i class="devicon-css3-plain colored" title="CSS"></i>
+             <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+             <i class="devicon-react-plain colored" title="React"></i>
+             <i class="devicon-bootstrap-plain colored" title="React Bootstrap"></i>
+             <i class="devicon-firebase-plain colored" title="Firebase"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/nature.webp" alt="Naturaleza Viva" />
+        <div class="info">
+          <h3>Naturaleza Viva</h3>
+          <p>Sitio web desarrollado con WordPress y Elementor para un vivero ecológico.</p>
+          <a href="https://dev-naturalezaviva.pantheonsite.io/" target="_blank" class="btn">Ver proyecto</a>
+          <div class="tecnologias">
+            <i class="devicon-wordpress-plain colored" title="WordPress"></i>
+            <i class="devicon-woocommerce-plain colored" title="WooCommerce"></i>
+            <i class="devicon-css3-plain colored" title="CSS"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CERTIFICADOS -->
+  <section id="certificados" class="fade-in">
+    <h2>Certificados</h2>
+    <div class="grid-certificados">
+
+      <div class="card-cert">
+        <h3>Desarrollo Web</h3>
+        <a href="https://pub.coderhouse.com/legacy-certificates/62941cd6c51fc9002423a0b7?lang=es" target="_blank" class="btn">Ver certificado</a>
+      </div>
+
+      <div class="card-cert">
+        <h3>JavaScript</h3>
+        <a href="https://pub.coderhouse.com/legacy-certificates/6302c8842f4a900024461b68?lang=es" target="_blank" class="btn">Ver certificado</a>
+      </div>
+
+      <div class="card-cert">
+        <h3>Programación Backend</h3>
+        <a href="https://pub.coderhouse.com/legacy-certificates/64e9012c48a96800191952a3?lang=es" target="_blank" class="btn">Ver certificado</a>
+      </div>
+
+      <div class="card-cert">
+        <h3>Carrera Desarrollo Full Stack</h3>
+        <a href="https://pub.coderhouse.com/legacy-certificates/64e9012c48a96800191952a5?lang=es" target="_blank" class="btn">Ver certificado</a>
+      </div>
+
+      <div class="card-cert">
+        <h3>WordPress</h3>
+        <a href="https://pub.coderhouse.com/certificates/c34316e7-f4e1-43ee-8f37-77d6f80b58b8?v=1" target="_blank" class="btn">Ver certificado</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="fade-in">
+    <h2>Contacto</h2>
+    <form action="mailto:zeuschris123@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Tu nombre" required />
+      <input type="email" name="email" placeholder="Tu correo" required />
+      <textarea name="message" placeholder="Tu mensaje" required></textarea>
+      <button type="submit" class="btn">Enviar mensaje</button>
+    </form>
+
+    <div class="socials">
+      <a href="https://github.com/zeuschris" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://wa.me/5491155647125" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <i class="fab fa-linkedin"></i>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Chris Portfolio 👨‍💻 - Todos los derechos reservados</p>
+  </footer>
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/a2e0f1a6b9.js" crossorigin="anonymous"></script>
+</body>
+</html>
